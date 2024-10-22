@@ -1,0 +1,29 @@
+// Abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+// Base styles
+@import "base/reset";
+@import "base/typography";
+@import "base/global";
+
+// Layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
+@import "layout/grid";
+
+// Components
+@import "components/buttons";
+@import "components/cards";
+@import "components/tables";
+
+// Pages
+@import "pages/home";
+
+// Themes (if needed)
+@import "themes/dark-mode";
+
+// Vendors
+@import "vendors/normalize";
